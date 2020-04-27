@@ -1,0 +1,19 @@
+
+ body {
+  min-width:512px;
+  max-width:1024px;
+  margin:16px auto;
+  background-color:#E0F0E0;
+  text-align:center;
+  font-family:monospace;
+  font-size:20px;
+ }
+ .c00 {
+  margin:1%;
+  padding:1%;
+ }
+ .c10 {
+  font-size:36px;
+ }
+ .e00 {
+  background-color:#F0F0F0;

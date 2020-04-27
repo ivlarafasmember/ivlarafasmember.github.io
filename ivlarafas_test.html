@@ -1,0 +1,43 @@
+﻿<html>
+ <head>
+  <script type="text/javascript">
+   function start(){
+    var cs = document.getElementById("cs_0");
+    cs.getContext("2d").fillRect(50,50,150,150);
+   }
+  </script>
+  <style type="text/css">
+   .dvit {
+    text-align:center;
+   }
+   .itta {
+    width:80%;
+    font-family:monospace;
+    font-size:1.1em;
+    min-height:22em;
+    resize:none;
+   }
+   .ittall {
+    text-align:center;
+   }
+   .itbn {
+    min-width:16em;
+    font-size:1.5em;
+    border-style:solid;
+    color:#080800;
+    background-color:#E0F0FF;
+    margin:20px;
+   }
+  </style>
+ </head>
+ <body onload="start()">
+  <div class="dvit">
+   <label for="itta_0">Write down ivlarafas code and Push RUN</label><br>
+   <textarea class="itta" id="itta_0" placeholder="Write here">(0 (main)) := { }</textarea>
+   <br>
+   <input class="itbn" type="button" id="itbn_0" value="RUN">
+  </div>
+  <hr>
+  <canvas id="cs_0" width=256 height=256>
+ </body>
+</html>
