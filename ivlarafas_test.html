@@ -1,11 +1,6 @@
 ﻿<html>
  <head>
-  <script type="text/javascript">
-   function start(){
-    var cs = document.getElementById("cs_0");
-    cs.getContext("2d").fillRect(50,50,150,150);
-   }
-  </script>
+  <script type="text/javascript" src="test.js"></script>
   <style type="text/css">
    .dvit {
     text-align:center;
@@ -33,9 +28,9 @@
  <body onload="start()">
   <div class="dvit">
    <label for="itta_0">Write down ivlarafas code and Push RUN</label><br>
-   <textarea class="itta" id="itta_0" placeholder="Write here">(0 (main)) := { }</textarea>
+   <textarea class="itta" id="itta_0" placeholder="Write here">(0 (main)) := ()</textarea>
    <br>
-   <input class="itbn" type="button" id="itbn_0" value="RUN">
+   <button class="itbn" onclick="push()">RUN</button>
   </div>
   <hr>
   <canvas id="cs_0" width=256 height=256>
