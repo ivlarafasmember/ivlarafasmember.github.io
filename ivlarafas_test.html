@@ -2,12 +2,13 @@
  <head>
   <script type="text/javascript" src="test.js"></script>
   <style type="text/css">
+   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@450&display=swap');
    .dvit {
     text-align:center;
    }
    .itta {
     width:80%;
-    font-family:monospace;
+    font-family:'Inconsolata',monospace;
     font-size:1.1em;
     min-height:22em;
     resize:none;
@@ -28,7 +29,11 @@
  <body onload="start()">
   <div class="dvit">
    <label for="itta_0">Write down ivlarafas code and Push RUN</label><br>
-   <textarea class="itta" id="itta_0" placeholder="Write here">(0 (main)) := ()</textarea>
+   <textarea class="itta" id="itta_0" placeholder="Write here" spellcheck="false">
+&lt;&gt;
+`.mn := (
+ .mn.noer
+)</textarea>
    <br>
    <button class="itbn" onclick="push()">RUN</button>
   </div>

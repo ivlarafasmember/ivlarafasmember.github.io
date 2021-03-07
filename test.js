@@ -2,10 +2,16 @@
 function start(){
  var cs = document.getElementById("cs_0");
  cs.getContext("2d").fillRect(50,50,150,150);
- alert("A");
  return;
 }
+
 function push(){
+ 
+ return 0;
+}
+
+
+function dy(){
  var mnbr=new ArrayBuffer(128);
  var mnbrvw=new Uint8Array(mnbr);
  mnbrvw.set([0,0x61,0x73,0x6D,0x01,0,0,0],0);
